@@ -18,7 +18,13 @@ foreach($people as $person) {
 				echo '<a href="person.php?id='.$person->id.'" class="list-group-item person">'.$person->name.' '.$person->surname.'</a>';
 			}
 ?>
+  <script>
+	setTimeout(function () {
+       window.location.href = "index.php"; //will redirect to your blog page (an ex: blog.html)
+    }, 45000); //will call the function after 2 secs.
   
+  
+  </script>
   
  </div>
 		

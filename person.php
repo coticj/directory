@@ -22,7 +22,13 @@
   </div>
 </div>
 </div>
-
+ <script>
+	setTimeout(function () {
+       window.location.href = "index.php"; //will redirect to your blog page (an ex: blog.html)
+    }, 45000); //will call the function after 2 secs.
+  
+  
+  </script>
 <?php
 	require_once('footer.html');
 ?>   
